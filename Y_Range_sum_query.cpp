@@ -17,7 +17,7 @@ int main()
     }
     // for (int i = 1; i <= n; i++) prefix sum test
     //{
-    // cout << pre[i] << " ";
+    // cout << pre[i] << "  ";
     //}
     while (q--)
     {
