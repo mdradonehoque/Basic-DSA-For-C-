@@ -17,10 +17,11 @@ void insert_at_tail(Node *&head, Node *&tail, int val)
     if (head == NULL)
     {
         head = newnode;
+        tail=newnode;
         return;
     }
     tail->next = newnode;
-    tail = tail->next;
+    tail = newnode;
 }
 void print_linked_list(Node *head)
 {
